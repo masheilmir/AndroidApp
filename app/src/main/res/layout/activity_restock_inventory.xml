@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeScreens.restock_inventory">
+
+    <TextView
+        android:id="@+id/restock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/restock"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/itemId"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/item_id"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/item_id"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/quantity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/quantityPrompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/quantity"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/EnterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:text="@string/Confirm"
+        />
+</LinearLayout>

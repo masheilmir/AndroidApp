@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="title_admin_options">adminOptions</string>
+    <string name="slogan">Shopping with open arms</string>
+    -----------------------------------------------------------------------------------------
+    <string name="promote_emp">Promote Employee</string>
+    <string name="view_books">View Books</string>
+    <string name="admin_welcome">Welcome to Admin Mode</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="authenticate_employee">Authenticate New Employee</string>
+    <string name="make_user">Make New User</string>
+    <string name="new_account">Make New Account</string>
+    <string name="new_employee">Make New Employee</string>
+    <string name="restock_inventory">Restock Inventory</string>
+    <string name="employee_welcome">Welcome Employee</string>
+    <string name="view_inventory">View Inventory</string>
+    <string name="Confirm">Confirm</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="list_items">List Items in Cart</string>
+    <string name="add_items">Add Items to Cart</string>
+    <string name="check_price">Check Total Price</string>
+    <string name="remove_items">Remove Items From Cart</string>
+    <string name="checkout">Checkout</string>
+    <string name="customer_welcome">Welcome Customer</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="Promote">PROMOTE EMPLOYEE</string>
+    <string name="EmployeeId">Enter Employee Id: </string>
+    <string name="exit">Exit</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="Authenticate">AUTHENTICATE EMPLOYEE</string>
+    <string name="password">Enter Password: </string>
+    ------------------------------------------------------------------------------------------------
+    <string name="new_user">NEW USER</string>
+    <string name="username">Enter Name</string>
+    <string name="age">Enter Age</string>
+    <string name="address">Enter Address</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="restock">RESTOCK INVENTORY</string>
+    <string name="item_id">Enter Item Id</string>
+    <string name="quantity">Enter Item Quantity</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="AddQuan">ADD QUANTITY OF ITEMS</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="RemoveQuan">REMOVE QUANTITY OF ITEMS</string>
+    ------------------------------------------------------------------------------------------------
+    <string name="LogIn">Log In</string>
+    <string name="UserId">Enter User Id:</string>
+    <string name="Password">Enter Password:</string>
+    <string name="Back">Back</string>
+    <string name="loadCart">Load Previous cart</string>
+    <string name="HistoricAcc">View Historic Accounts</string>
+    <string name="ActiveAcc">View Acitve Accounts</string>
+
+
+    <string name="confirmCheckout">Would you like to continue shopping?</string>
+    <string name="yesShop">YES</string>
+    <string name="noShop">NO</string>
+    <string name="total">Total Price:</string>
+    <string name="Account">Choose an Account</string>
+
+
+    <string name="acctNum">Enter Account Number</string>
+    <string name="saveCart">Save Cart</string>
+
+</resources>
+
+

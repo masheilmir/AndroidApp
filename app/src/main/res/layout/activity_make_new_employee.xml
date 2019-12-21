@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EmployeeScreens.make_new_employee">
+
+
+    <TextView
+        android:id="@+id/newEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/new_employee"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/enter2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/enter3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/age"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/enter4"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/address"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/address"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/enter5"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:text="@string/Confirm"
+        />
+
+
+
+
+
+</LinearLayout>

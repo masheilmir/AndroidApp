@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".EmployeeScreens.employeeOptions"
+   >
+
+    <TextView
+        android:id="@+id/employee_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/employee_welcome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:layout_width="102dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/logo"></ImageView>
+    <Button
+        android:id="@+id/auth_emp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/authenticate_employee"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/new_user_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/make_user"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/view_inventory_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/view_inventory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/new_emp_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/new_employee"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/restock_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/restock_inventory"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:background="@drawable/rounded_buttons"
+        android:textColor="@android:color/holo_red_light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="@font/ding2"
+        android:textSize="25dp"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp" />
+
+</LinearLayout>

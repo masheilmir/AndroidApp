@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserScreens.checkout">
+
+    <TextView
+        android:id="@+id/checkout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/checkout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="40sp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/actualTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/confirmCheckout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/confirmCheckout"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/yesCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/yesShop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/noCont"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/noShop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/saveCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/saveCart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="35sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/yesSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:padding="10dp"
+        android:text="@string/yesShop"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"/>
+
+
+
+</LinearLayout>

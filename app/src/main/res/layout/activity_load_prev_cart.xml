@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserScreens.load_prev_cart">
+
+    <TextView
+        android:id="@+id/AccountTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/Account"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/actNum"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:fontFamily="@font/ding2"
+        android:gravity="center"
+        android:text="@string/acctNum"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/actNumEntered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:ems="10"
+        android:hint="@string/acctNum"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/EnterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordEditText"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/rounded_buttons"
+        android:fontFamily="@font/ding2"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:text="@string/Confirm"
+        />
+
+
+
+</LinearLayout>

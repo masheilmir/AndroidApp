@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".EmployeeScreens.make_new_employee"></activity>
+        <activity
+            android:name=".popUp"
+            android:theme="@style/AppTheme.popUp"></activity>
+        <activity android:name=".InitialScreens.LogInActivity" />
+        <activity android:name=".UserScreens.RemoveQuantity" />
+        <activity android:name=".UserScreens.checkout" />
+        <activity android:name=".UserScreens.AddQuantityofItem" />
+        <activity android:name=".UserScreens.load_prev_cart" />
+        <activity android:name=".EmployeeScreens.restock_inventory" />
+        <activity android:name=".EmployeeScreens.make_new_account" />
+        <activity android:name=".EmployeeScreens.make_new_user" />
+        <activity android:name=".EmployeeScreens.Authenticate_new_employee" />
+        <activity android:name=".AdminScreens.PromoteEmployee" />
+        <activity android:name=".UserScreens.userOptions" />
+        <activity android:name=".EmployeeScreens.employeeOptions" />
+        <activity android:name=".AdminScreens.adminOptions" />
+        <activity android:name=".InitialScreens.Initial_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
